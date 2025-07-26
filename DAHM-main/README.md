@@ -28,7 +28,7 @@ python main.py -d allrecipes -m ALLRECIPES5
 - TikTok
 
 ```python
-python main.py --d tiktok -m ATIKTOK5
+python main.py -d tiktok -m ATIKTOK5
 ```
 
 
