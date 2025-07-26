@@ -1,0 +1,34 @@
+hyper_parameters: ["switch", "lsim", "self_loop", "purning_random", "dropout", "cl_loss", "cl_loss2", "n_hyper_layers", "hyper_num", "keep_rate", "alpha", "reg_weight", "hyper_tau", "purifer", "n_ui_layers", "n_m_layers", "cl_loss_type", "cl_tau", "agg", "m_agg", 'd']
+
+switch: [False]
+lsim: ["nonsim"] # ["sim", "nonsim"]
+self_loop: ["loop"]
+purning_random: [False]
+dropout: [0.2] # [0.1] # [0.2] # [0.001, 0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9] 
+cl_loss: [0.001] # [0.1, 0.01, 0.001, 0.0001, 0.0]
+cl_loss2: [0.0] 
+n_hyper_layers: [2]
+hyper_num: [256] # [8] [1, 2, 4, 6, 8, 16, 32, 64, 128, 256, 512]
+keep_rate: [0.5] # [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+alpha: [0.3] # [0.3] # [1.0, 2.0, 3.0, 4.0, 5.0, 6.0] # [0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+reg_weight : [0.001]
+hyper_tau: [0.5]
+purifer: ["blank"]
+n_ui_layers: [2]
+n_m_layers: [1]
+cl_loss_type: ["batch"]
+cl_tau: [0.5]
+agg: ["sum"] # ["concat", "sum"]
+m_agg: ["last"] # ["last", "mean"]
+d: [True]
+
+embedding_size: 64
+n_layers: 1
+
+learning_rate_scheduler: [0.96, 50]
+lambda_coeff: 0.9
+# reg_weight: [1e-03]
+
+knn_k: 10
+
+learning_rate: 0.001
