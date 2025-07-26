@@ -16,13 +16,13 @@ Run the code from within the `src/` directory.
 - Netflix
 
 ```python
-python main.py --d netflix -m NETFLIX5
+python main.py -d netflix -m NETFLIX5
 ```
 
 - Allrecipes
 
 ```python
-python main.py --d allrecipes -m ALLRECIPES5
+python main.py -d allrecipes -m ALLRECIPES5
 ```
 
 - TikTok
